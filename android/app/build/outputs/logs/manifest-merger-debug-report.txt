@@ -1,0 +1,856 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:1:1-51:12
+MERGED from [:react-native-firebase] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/9bbfe130cb583d8426e6e0bd98fae55e/AndroidManifest.xml:17:1-22:12
+MERGED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:2:1-52:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e40eebd9fc00e04d71c47ddf887e049e/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2dcc007d25fddf02130233e421177947/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-camera] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-ml-vision:19.0.3] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/26d290bf94a7b0081d58062a6c8fc944/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c4ec39f036366072d8584d0e6c35c49f/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-device-info] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5eccad984b935ff4ec5a124c139039ba/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/097d621425a35d87b28dc5371750726d/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5720ae76e9a6f1b5cf8caedf0a182f54/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/b4983d4f4d956883274818f0dd72e360/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ea8df9106fbc7aa24ca4ea5392242ad2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-common:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/593d528b1966cbd6f778c07b5f4e98fd/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3c800e39785d4d1157f1c88fdc5ced5d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c715f5af8083a08910f3d2d34a1f98e8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3ac6fbead4517428fbcf5efd8b66be78/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5c7f4167d6b2b6852a00b75bad86dc24/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fddeb923dfd1f824ec6403630229d6d9/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/0210fe607a71c5e4820c0b49ecbd8a8b/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ae688390cf9b301320451237d29632a6/AndroidManifest.xml:17:1-29:12
+MERGED from [:@react-native-community_async-storage] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:@react-native-community_cameraroll] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/@react-native-community/cameraroll/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-fs] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-image-base64] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-base64/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-image-picker] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-localization] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-localization/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-localize] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-localize/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-pdf] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-pdf/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-permissions] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-reanimated] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-share] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [:react-native-svg] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-webview] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-47:12
+MERGED from [com.facebook.react:react-native:0.60.5] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fd928ce1bb9af5b042b1401f36309cd9/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/b0daf059408cea1516cd75539b6fe33d/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-resizer] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-resizer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/89428b9125400dc2c184185d84891eab/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5708f2e13650e89ab9d7bc26de0f5553/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2f35385a5f23e171c0b677121b4f6020/AndroidManifest.xml:22:1-33:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/36c894c256f52c70c182a4a313b84554/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/39430619c2aad0a8c42322152e01c013/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5d08d2630e9ac901799eda07edb21e57/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/f61df4ed2be71f915575978e06a4a2b7/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7bfe889f711648022ac7f6296a19c73c/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c1a24ee1b3980a224b2ba2d5c1fccede/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3949abeabba9857e4e45a61b5eb3ab0c/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/a2f7a78a99efeb88df0beb9b0fd19ade/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/9a33c5b929c9cbc584a3765f2274cc7c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/b1b248ea79ffdbd30c69e4fcbc850861/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/cf39797a6a111d0cbaca51d1a8a3d4ae/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/d9dd9713bdcdc82cbfa4f882ec821745/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/31a7b10bf8231c3fd06d0cb4ff308b6b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/983a87116b387a755fb0ed7c4e7c2453/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/9f7e1c2a49b8835fa18f61a9c4b06156/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/0212000b3e852d7f0669878f76e32273/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fe670ace12dc9724ca631bcbece6caf5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/789300fbb1ff70651a1c2ee389c68ae7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5cea288795fea62d149cee0ff93354c3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/840da5ab9203dca0c8b15803d1161e6e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2ad84ecc2af14843f6c3e438a7906012/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5378bc43af9bcf7ab0267935db380974/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/966249f3e1f8d51daa3a3f396f6f6be6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e3a85e73372a4cc6013c9c9182f47d01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5b8d0ec3babd4e2b9e99227a7f60f9c9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/633d2ac9be09eef3291976aa12227460/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/31bb83420b718cf294360b41a847c48c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7a87aa05ef6bc5fb6cac7a4778e0acb0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/d098090fcca2fe2dd2fc67573ae168f5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6fb50814dfdc311a73441905b4c7bb67/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7b3f8f241efaf110935795717c4f350f/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2c9aff4c8133a069e226cf202e96b48d/AndroidManifest.xml:17:1-25:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e719d62fa97088c04b5de4826bf8e007/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/112dc141774bab2efdf653369651225d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e155db3ae1caf3c090f265d224e301e5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/0d405e21c2b675a58c2cb08711f656dd/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/74fe3fb6122efd82eea044582feb97d0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/354af1185469a8cff08cb80d52e46d19/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c0a1a334dd64d0066955310d04b5cd7f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ab09fe25825cfc60d38c7137b057b629/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2b527789f3854b46855586bb429d09fa/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2bbed20a2b92cae4be3d1f30fa9f9363/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/0563e5c5d99e1fb5a11cab2160485f63/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fa79ba226b7d4f0d9c69da966e0180c1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/dee5f8b3340143212bd20d72660200ad/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/75d85e1a7b009c09203dd5dde94ceae4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/528da0edd09493dd82fdaab95e2e42c6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6912e0c02905319eb2f2c8cc6564619d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/be96bc67dcdf294f50b9d58af11bb797/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/660bd102a4d2521fcea509d95f9187a7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c2404c1eece799fd90f80ae131cc6117/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/8022a663d84dbfea805c1238d1748dbe/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/366d9895868d6b1402374706ff9b9b30/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:1:1-51:12
+INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:1:1-51:12
+	package
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:2:3-33
+		INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:1:1-51:12
+		INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:1:1-51:12
+		INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-firebase] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e40eebd9fc00e04d71c47ddf887e049e/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e40eebd9fc00e04d71c47ddf887e049e/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5eccad984b935ff4ec5a124c139039ba/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5eccad984b935ff4ec5a124c139039ba/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fddeb923dfd1f824ec6403630229d6d9/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fddeb923dfd1f824ec6403630229d6d9/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:23:5-67
+MERGED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-67
+MERGED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/89428b9125400dc2c184185d84891eab/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/89428b9125400dc2c184185d84891eab/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5708f2e13650e89ab9d7bc26de0f5553/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5708f2e13650e89ab9d7bc26de0f5553/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2f35385a5f23e171c0b677121b4f6020/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2f35385a5f23e171c0b677121b4f6020/AndroidManifest.xml:29:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/36c894c256f52c70c182a4a313b84554/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/36c894c256f52c70c182a4a313b84554/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7bfe889f711648022ac7f6296a19c73c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7bfe889f711648022ac7f6296a19c73c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3949abeabba9857e4e45a61b5eb3ab0c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3949abeabba9857e4e45a61b5eb3ab0c/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:6:22-63
+uses-permission#android.permission.CAMERA
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:7:5-65
+MERGED from [:react-native-camera] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:9:5-65
+MERGED from [:react-native-camera] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:7:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:8:5-80
+MERGED from [:react-native-fs] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [:react-native-fs] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [:react-native-share] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+MERGED from [:react-native-share] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+MERGED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:5-81
+MERGED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:10:5-49:19
+MERGED from [:react-native-firebase] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-21:19
+MERGED from [:react-native-firebase] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-21:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e40eebd9fc00e04d71c47ddf887e049e/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e40eebd9fc00e04d71c47ddf887e049e/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2dcc007d25fddf02130233e421177947/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2dcc007d25fddf02130233e421177947/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c4ec39f036366072d8584d0e6c35c49f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c4ec39f036366072d8584d0e6c35c49f/AndroidManifest.xml:7:5-20
+MERGED from [:react-native-device-info] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-22:19
+MERGED from [:react-native-device-info] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-22:19
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5eccad984b935ff4ec5a124c139039ba/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5eccad984b935ff4ec5a124c139039ba/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5720ae76e9a6f1b5cf8caedf0a182f54/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5720ae76e9a6f1b5cf8caedf0a182f54/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/b4983d4f4d956883274818f0dd72e360/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/b4983d4f4d956883274818f0dd72e360/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ea8df9106fbc7aa24ca4ea5392242ad2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ea8df9106fbc7aa24ca4ea5392242ad2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3c800e39785d4d1157f1c88fdc5ced5d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3c800e39785d4d1157f1c88fdc5ced5d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3ac6fbead4517428fbcf5efd8b66be78/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3ac6fbead4517428fbcf5efd8b66be78/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5c7f4167d6b2b6852a00b75bad86dc24/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5c7f4167d6b2b6852a00b75bad86dc24/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fddeb923dfd1f824ec6403630229d6d9/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fddeb923dfd1f824ec6403630229d6d9/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/0210fe607a71c5e4820c0b49ecbd8a8b/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/0210fe607a71c5e4820c0b49ecbd8a8b/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ae688390cf9b301320451237d29632a6/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ae688390cf9b301320451237d29632a6/AndroidManifest.xml:22:5-27:19
+MERGED from [:react-native-image-picker] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-share] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-share] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-45:19
+MERGED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-45:19
+MERGED from [com.facebook.react:react-native:0.60.5] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fd928ce1bb9af5b042b1401f36309cd9/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.60.5] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fd928ce1bb9af5b042b1401f36309cd9/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/89428b9125400dc2c184185d84891eab/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/89428b9125400dc2c184185d84891eab/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5708f2e13650e89ab9d7bc26de0f5553/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5708f2e13650e89ab9d7bc26de0f5553/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2f35385a5f23e171c0b677121b4f6020/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2f35385a5f23e171c0b677121b4f6020/AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/36c894c256f52c70c182a4a313b84554/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/36c894c256f52c70c182a4a313b84554/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/39430619c2aad0a8c42322152e01c013/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/39430619c2aad0a8c42322152e01c013/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5d08d2630e9ac901799eda07edb21e57/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5d08d2630e9ac901799eda07edb21e57/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/f61df4ed2be71f915575978e06a4a2b7/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/f61df4ed2be71f915575978e06a4a2b7/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7bfe889f711648022ac7f6296a19c73c/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7bfe889f711648022ac7f6296a19c73c/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c1a24ee1b3980a224b2ba2d5c1fccede/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c1a24ee1b3980a224b2ba2d5c1fccede/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3949abeabba9857e4e45a61b5eb3ab0c/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3949abeabba9857e4e45a61b5eb3ab0c/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/a2f7a78a99efeb88df0beb9b0fd19ade/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/a2f7a78a99efeb88df0beb9b0fd19ade/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/9a33c5b929c9cbc584a3765f2274cc7c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/9a33c5b929c9cbc584a3765f2274cc7c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/b1b248ea79ffdbd30c69e4fcbc850861/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/b1b248ea79ffdbd30c69e4fcbc850861/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/cf39797a6a111d0cbaca51d1a8a3d4ae/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/cf39797a6a111d0cbaca51d1a8a3d4ae/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7b3f8f241efaf110935795717c4f350f/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7b3f8f241efaf110935795717c4f350f/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2c9aff4c8133a069e226cf202e96b48d/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2c9aff4c8133a069e226cf202e96b48d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ab09fe25825cfc60d38c7137b057b629/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ab09fe25825cfc60d38c7137b057b629/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/8022a663d84dbfea805c1238d1748dbe/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/8022a663d84dbfea805c1238d1748dbe/AndroidManifest.xml:11:5-20
+	android:requestLegacyExternalStorage
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:17:7-50
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7b3f8f241efaf110935795717c4f350f/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:12:7-39
+	android:icon
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:13:7-41
+	android:allowBackup
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:14:7-34
+	android:theme
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:15:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:16:7-42
+	android:name
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:11:7-38
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:20:7-136
+	android:resource
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:20:89-133
+	android:name
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:20:18-88
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:22:7-126
+	android:resource
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:22:90-123
+	android:name
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:22:18-89
+activity#id.co.kalbe.onekalbe.MainActivity
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:23:7-41:18
+	android:screenOrientation
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:28:9-45
+	android:label
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:25:9-41
+	android:launchMode
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:26:9-40
+	android:windowSoftInputMode
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:30:9-51
+	android:exported
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:29:9-32
+	android:configChanges
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:27:9-79
+	android:name
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:24:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:31:9-34:25
+action#android.intent.action.MAIN
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:32:13-65
+	android:name
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:32:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:33:13-73
+	android:name
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:33:23-70
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:onekalbe
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:35:9-40:25
+action#android.intent.action.VIEW
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:36:11-63
+	android:name
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:36:19-60
+category#android.intent.category.DEFAULT
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:37:11-70
+	android:name
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:37:21-67
+category#android.intent.category.BROWSABLE
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:38:11-72
+	android:name
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:38:21-69
+data
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:39:11-45
+	android:scheme
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:39:17-42
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:42:7-84
+	android:name
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml:42:17-81
+uses-sdk
+INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-firebase] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/9bbfe130cb583d8426e6e0bd98fae55e/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/9bbfe130cb583d8426e6e0bd98fae55e/AndroidManifest.xml:20:5-43
+MERGED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e40eebd9fc00e04d71c47ddf887e049e/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e40eebd9fc00e04d71c47ddf887e049e/AndroidManifest.xml:7:5-43
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2dcc007d25fddf02130233e421177947/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2dcc007d25fddf02130233e421177947/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-camera] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-camera] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-ml-vision:19.0.3] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/26d290bf94a7b0081d58062a6c8fc944/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:19.0.3] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/26d290bf94a7b0081d58062a6c8fc944/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c4ec39f036366072d8584d0e6c35c49f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c4ec39f036366072d8584d0e6c35c49f/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-device-info] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:react-native-device-info] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5eccad984b935ff4ec5a124c139039ba/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5eccad984b935ff4ec5a124c139039ba/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/097d621425a35d87b28dc5371750726d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/097d621425a35d87b28dc5371750726d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5720ae76e9a6f1b5cf8caedf0a182f54/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5720ae76e9a6f1b5cf8caedf0a182f54/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/b4983d4f4d956883274818f0dd72e360/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/b4983d4f4d956883274818f0dd72e360/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ea8df9106fbc7aa24ca4ea5392242ad2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ea8df9106fbc7aa24ca4ea5392242ad2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-common:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/593d528b1966cbd6f778c07b5f4e98fd/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-common:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/593d528b1966cbd6f778c07b5f4e98fd/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3c800e39785d4d1157f1c88fdc5ced5d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3c800e39785d4d1157f1c88fdc5ced5d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c715f5af8083a08910f3d2d34a1f98e8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c715f5af8083a08910f3d2d34a1f98e8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3ac6fbead4517428fbcf5efd8b66be78/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3ac6fbead4517428fbcf5efd8b66be78/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5c7f4167d6b2b6852a00b75bad86dc24/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5c7f4167d6b2b6852a00b75bad86dc24/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fddeb923dfd1f824ec6403630229d6d9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fddeb923dfd1f824ec6403630229d6d9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/0210fe607a71c5e4820c0b49ecbd8a8b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/0210fe607a71c5e4820c0b49ecbd8a8b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ae688390cf9b301320451237d29632a6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ae688390cf9b301320451237d29632a6/AndroidManifest.xml:20:5-44
+MERGED from [:@react-native-community_async-storage] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_async-storage] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_cameraroll] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/@react-native-community/cameraroll/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_cameraroll] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/@react-native-community/cameraroll/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fs] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fs] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-fs/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-base64] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-base64/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-base64] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-base64/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-localization] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-localization/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-localization] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-localization/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-localize] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-localize/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-localize] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-localize/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-pdf] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-pdf/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-pdf] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-pdf/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-permissions] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-permissions] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-share] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-share] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.60.5] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fd928ce1bb9af5b042b1401f36309cd9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.60.5] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fd928ce1bb9af5b042b1401f36309cd9/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/b0daf059408cea1516cd75539b6fe33d/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/b0daf059408cea1516cd75539b6fe33d/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-resizer] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-resizer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-resizer] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-resizer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/89428b9125400dc2c184185d84891eab/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/89428b9125400dc2c184185d84891eab/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5708f2e13650e89ab9d7bc26de0f5553/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5708f2e13650e89ab9d7bc26de0f5553/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2f35385a5f23e171c0b677121b4f6020/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2f35385a5f23e171c0b677121b4f6020/AndroidManifest.xml:27:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/36c894c256f52c70c182a4a313b84554/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/36c894c256f52c70c182a4a313b84554/AndroidManifest.xml:7:5-43
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/39430619c2aad0a8c42322152e01c013/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/39430619c2aad0a8c42322152e01c013/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5d08d2630e9ac901799eda07edb21e57/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5d08d2630e9ac901799eda07edb21e57/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/f61df4ed2be71f915575978e06a4a2b7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/f61df4ed2be71f915575978e06a4a2b7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7bfe889f711648022ac7f6296a19c73c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7bfe889f711648022ac7f6296a19c73c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c1a24ee1b3980a224b2ba2d5c1fccede/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c1a24ee1b3980a224b2ba2d5c1fccede/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3949abeabba9857e4e45a61b5eb3ab0c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3949abeabba9857e4e45a61b5eb3ab0c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/a2f7a78a99efeb88df0beb9b0fd19ade/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/a2f7a78a99efeb88df0beb9b0fd19ade/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/9a33c5b929c9cbc584a3765f2274cc7c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/9a33c5b929c9cbc584a3765f2274cc7c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/b1b248ea79ffdbd30c69e4fcbc850861/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/b1b248ea79ffdbd30c69e4fcbc850861/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/cf39797a6a111d0cbaca51d1a8a3d4ae/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/cf39797a6a111d0cbaca51d1a8a3d4ae/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/d9dd9713bdcdc82cbfa4f882ec821745/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/d9dd9713bdcdc82cbfa4f882ec821745/AndroidManifest.xml:20:5-44
+MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/31a7b10bf8231c3fd06d0cb4ff308b6b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/31a7b10bf8231c3fd06d0cb4ff308b6b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/983a87116b387a755fb0ed7c4e7c2453/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/983a87116b387a755fb0ed7c4e7c2453/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/9f7e1c2a49b8835fa18f61a9c4b06156/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/9f7e1c2a49b8835fa18f61a9c4b06156/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/0212000b3e852d7f0669878f76e32273/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/0212000b3e852d7f0669878f76e32273/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fe670ace12dc9724ca631bcbece6caf5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fe670ace12dc9724ca631bcbece6caf5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/789300fbb1ff70651a1c2ee389c68ae7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/789300fbb1ff70651a1c2ee389c68ae7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5cea288795fea62d149cee0ff93354c3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5cea288795fea62d149cee0ff93354c3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/840da5ab9203dca0c8b15803d1161e6e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/840da5ab9203dca0c8b15803d1161e6e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2ad84ecc2af14843f6c3e438a7906012/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2ad84ecc2af14843f6c3e438a7906012/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5378bc43af9bcf7ab0267935db380974/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5378bc43af9bcf7ab0267935db380974/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/966249f3e1f8d51daa3a3f396f6f6be6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/966249f3e1f8d51daa3a3f396f6f6be6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e3a85e73372a4cc6013c9c9182f47d01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e3a85e73372a4cc6013c9c9182f47d01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5b8d0ec3babd4e2b9e99227a7f60f9c9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5b8d0ec3babd4e2b9e99227a7f60f9c9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/633d2ac9be09eef3291976aa12227460/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/633d2ac9be09eef3291976aa12227460/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/31bb83420b718cf294360b41a847c48c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/31bb83420b718cf294360b41a847c48c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7a87aa05ef6bc5fb6cac7a4778e0acb0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7a87aa05ef6bc5fb6cac7a4778e0acb0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/d098090fcca2fe2dd2fc67573ae168f5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/d098090fcca2fe2dd2fc67573ae168f5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6fb50814dfdc311a73441905b4c7bb67/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6fb50814dfdc311a73441905b4c7bb67/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7b3f8f241efaf110935795717c4f350f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7b3f8f241efaf110935795717c4f350f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2c9aff4c8133a069e226cf202e96b48d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2c9aff4c8133a069e226cf202e96b48d/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e719d62fa97088c04b5de4826bf8e007/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e719d62fa97088c04b5de4826bf8e007/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/112dc141774bab2efdf653369651225d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/112dc141774bab2efdf653369651225d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e155db3ae1caf3c090f265d224e301e5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e155db3ae1caf3c090f265d224e301e5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/0d405e21c2b675a58c2cb08711f656dd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/0d405e21c2b675a58c2cb08711f656dd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/74fe3fb6122efd82eea044582feb97d0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/74fe3fb6122efd82eea044582feb97d0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/354af1185469a8cff08cb80d52e46d19/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/354af1185469a8cff08cb80d52e46d19/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c0a1a334dd64d0066955310d04b5cd7f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c0a1a334dd64d0066955310d04b5cd7f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ab09fe25825cfc60d38c7137b057b629/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ab09fe25825cfc60d38c7137b057b629/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2b527789f3854b46855586bb429d09fa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2b527789f3854b46855586bb429d09fa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2bbed20a2b92cae4be3d1f30fa9f9363/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/2bbed20a2b92cae4be3d1f30fa9f9363/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/0563e5c5d99e1fb5a11cab2160485f63/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/0563e5c5d99e1fb5a11cab2160485f63/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fa79ba226b7d4f0d9c69da966e0180c1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fa79ba226b7d4f0d9c69da966e0180c1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/dee5f8b3340143212bd20d72660200ad/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/dee5f8b3340143212bd20d72660200ad/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/75d85e1a7b009c09203dd5dde94ceae4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/75d85e1a7b009c09203dd5dde94ceae4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/528da0edd09493dd82fdaab95e2e42c6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/528da0edd09493dd82fdaab95e2e42c6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6912e0c02905319eb2f2c8cc6564619d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6912e0c02905319eb2f2c8cc6564619d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/be96bc67dcdf294f50b9d58af11bb797/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/be96bc67dcdf294f50b9d58af11bb797/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/660bd102a4d2521fcea509d95f9187a7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/660bd102a4d2521fcea509d95f9187a7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c2404c1eece799fd90f80ae131cc6117/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/c2404c1eece799fd90f80ae131cc6117/AndroidManifest.xml:20:5-44
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/8022a663d84dbfea805c1238d1748dbe/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/8022a663d84dbfea805c1238d1748dbe/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/366d9895868d6b1402374706ff9b9b30/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/366d9895868d6b1402374706ff9b9b30/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fddeb923dfd1f824ec6403630229d6d9/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fddeb923dfd1f824ec6403630229d6d9/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:24:5-68
+MERGED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-68
+MERGED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7bfe889f711648022ac7f6296a19c73c/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7bfe889f711648022ac7f6296a19c73c/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3949abeabba9857e4e45a61b5eb3ab0c/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3949abeabba9857e4e45a61b5eb3ab0c/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:react-native-firebase] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fddeb923dfd1f824ec6403630229d6d9/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fddeb923dfd1f824ec6403630229d6d9/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:22:5-79
+MERGED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-79
+MERGED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7bfe889f711648022ac7f6296a19c73c/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7bfe889f711648022ac7f6296a19c73c/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3949abeabba9857e4e45a61b5eb3ab0c/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3949abeabba9857e4e45a61b5eb3ab0c/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [:react-native-firebase] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:react-native-firebase] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fddeb923dfd1f824ec6403630229d6d9/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fddeb923dfd1f824ec6403630229d6d9/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fddeb923dfd1f824ec6403630229d6d9/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [:react-native-firebase] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
+meta-data#com.google.firebase.components:io.invertase.firebase.ReactNativeFirebaseAppRegistrar
+ADDED from [:react-native-firebase] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [:react-native-firebase] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [:react-native-firebase] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-116
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7e2402a2384c8c372739b40825678066/AndroidManifest.xml:50:22-86
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e40eebd9fc00e04d71c47ddf887e049e/AndroidManifest.xml:12:9-16:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e40eebd9fc00e04d71c47ddf887e049e/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e40eebd9fc00e04d71c47ddf887e049e/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e40eebd9fc00e04d71c47ddf887e049e/AndroidManifest.xml:16:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/e40eebd9fc00e04d71c47ddf887e049e/AndroidManifest.xml:13:13-75
+uses-feature#android.hardware.camera
+ADDED from [:react-native-camera] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [:react-native-camera] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [:react-native-camera] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:12:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:react-native-camera] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [:react-native-camera] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [:react-native-camera] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:15:9-57
+receiver#com.learnium.RNDeviceInfo.RNDeviceReceiver
+ADDED from [:react-native-device-info] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-21:20
+	android:enabled
+		ADDED from [:react-native-device-info] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-35
+	android:exported
+		ADDED from [:react-native-device-info] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-36
+	tools:ignore
+		ADDED from [:react-native-device-info] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-44
+	android:name
+		ADDED from [:react-native-device-info] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-70
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [:react-native-device-info] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-20:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [:react-native-device-info] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-79
+	android:name
+		ADDED from [:react-native-device-info] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:25-76
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-iid:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5eccad984b935ff4ec5a124c139039ba/AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-iid:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/5eccad984b935ff4ec5a124c139039ba/AndroidManifest.xml:23:22-79
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fddeb923dfd1f824ec6403630229d6d9/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fddeb923dfd1f824ec6403630229d6d9/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/fddeb923dfd1f824ec6403630229d6d9/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/6154c01517c4f1ada1204e36873df4f5/AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ae688390cf9b301320451237d29632a6/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ae688390cf9b301320451237d29632a6/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ae688390cf9b301320451237d29632a6/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/ae688390cf9b301320451237d29632a6/AndroidManifest.xml:24:13-79
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:react-native-image-picker] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+provider#cl.json.RNShareFileProvider
+ADDED from [:react-native-share] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-share] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-share] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [:react-native-share] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-share] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-55
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-webview] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+	android:exported
+		ADDED from [:react-native-webview] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-webview] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+uses-permission#com.android.vending.CHECK_LICENSE
+ADDED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-73
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-70
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:22-73
+provider#com.RNFetchBlob.Utils.FileProvider
+ADDED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-44:20
+	android:grantUriPermissions
+		ADDED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-47
+	android:authorities
+		ADDED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-60
+	android:exported
+		ADDED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/adekferdian/Documents/kalbe/solved/tumbal/onekalbe-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-62
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/39430619c2aad0a8c42322152e01c013/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/39430619c2aad0a8c42322152e01c013/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/39430619c2aad0a8c42322152e01c013/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/39430619c2aad0a8c42322152e01c013/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/39430619c2aad0a8c42322152e01c013/AndroidManifest.xml:13:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7bfe889f711648022ac7f6296a19c73c/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7bfe889f711648022ac7f6296a19c73c/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3949abeabba9857e4e45a61b5eb3ab0c/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3949abeabba9857e4e45a61b5eb3ab0c/AndroidManifest.xml:26:5-110
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/8022a663d84dbfea805c1238d1748dbe/AndroidManifest.xml:9:5-110
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/8022a663d84dbfea805c1238d1748dbe/AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7bfe889f711648022ac7f6296a19c73c/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7bfe889f711648022ac7f6296a19c73c/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3949abeabba9857e4e45a61b5eb3ab0c/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/3949abeabba9857e4e45a61b5eb3ab0c/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:35:13-100
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/7735c9b1fca7cf016874313859ff6374/AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/cf39797a6a111d0cbaca51d1a8a3d4ae/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/cf39797a6a111d0cbaca51d1a8a3d4ae/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/adekferdian/.gradle/caches/transforms-2/files-2.1/cf39797a6a111d0cbaca51d1a8a3d4ae/AndroidManifest.xml:24:13-58

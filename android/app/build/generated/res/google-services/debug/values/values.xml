@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">992355897573-jq66ekaf2bqn50oc9ql61fnmvhp60vre.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://onekalbe-586f0.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">992355897573</string>
+    <string name="google_api_key" translatable="false">AIzaSyDiP9EEAF7y3XooDoY71OIvLU-wCFQBlIE</string>
+    <string name="google_app_id" translatable="false">1:992355897573:android:4fee2e4a1d94c3c144440c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDiP9EEAF7y3XooDoY71OIvLU-wCFQBlIE</string>
+    <string name="google_storage_bucket" translatable="false">onekalbe-586f0.appspot.com</string>
+    <string name="project_id" translatable="false">onekalbe-586f0</string>
+</resources>

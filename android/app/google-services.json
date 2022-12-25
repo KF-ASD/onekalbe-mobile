@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "992355897573",
+    "firebase_url": "https://onekalbe-586f0.firebaseio.com",
+    "project_id": "onekalbe-586f0",
+    "storage_bucket": "onekalbe-586f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992355897573:android:4fee2e4a1d94c3c144440c",
+        "android_client_info": {
+          "package_name": "id.co.kalbe.onekalbe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992355897573-jq66ekaf2bqn50oc9ql61fnmvhp60vre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiP9EEAF7y3XooDoY71OIvLU-wCFQBlIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992355897573-jq66ekaf2bqn50oc9ql61fnmvhp60vre.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
